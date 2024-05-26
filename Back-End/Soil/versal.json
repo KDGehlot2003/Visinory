@@ -1,0 +1,29 @@
+{
+    "project": {
+      "name": "FastAPI Soil Detection",
+      "version": "1.0.0",
+      "description": "Configuration for FastAPI Soil Detection application."
+    },
+    "server": {
+      "host": "0.0.0.0",
+      "port": 8000,
+      "reload": true
+    },
+    "paths": {
+      "templates_directory": "templates",
+      "static_files_directory": "images",
+      "model_path": "best_model.hdf5",
+      "allowed_file_types": ["image/jpeg", "image/png"]
+    },
+    "logging": {
+      "level": "info",
+      "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+      "filename": "app.log"
+    },
+    "security": {
+      "secret_key": "your_secret_key_here",
+      "algorithm": "HS256",
+      "access_token_expire_minutes": 30
+    }
+  }
+  

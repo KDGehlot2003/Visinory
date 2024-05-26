@@ -1,0 +1,18 @@
+{
+    "project": {
+      "name": "FastAPI Image Detection",
+      "version": "1.0.0",
+      "description": "Configuration for FastAPI Image Detection application."
+    },
+    "server": {
+      "host": "0.0.0.0",
+      "port": 8000,
+      "reload": true
+    },
+    "paths": {
+      "templates_directory": "templates",
+      "model_path": "model.h5",
+      "allowed_file_types": ["image/jpeg", "image/png"]
+    }
+}
+  
