@@ -46,6 +46,11 @@ export default function Header() {
                                 About
                         </h2>
                      </NavLink>
+                     <NavLink to="/about">
+                       <h2  className="nav-h">
+                                History
+                        </h2>
+                     </NavLink>
 
                         <NavLink to="/login">
                         <RxAvatar className="ava"/>

@@ -36,6 +36,11 @@ export default function Home() {
              <img src="/images/img3.png" alt="soil type" />
              </div>
              <div className="feat">
+            <h3>Services</h3>
+            <p>Smart Watering, Stronger Harvests: AgroVision Adaptive Irrigation.</p>
+             <img src="/images/img2.png" alt="soil" />
+             </div>
+             <div className="feat">
             <h3>Hydroponics Tower</h3>
             <p>Smart Watering, Stronger Harvests: AgroVision Adaptive Irrigation.</p>
              <img src="/images/img2.png" alt="soil" />

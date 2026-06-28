@@ -1,4 +1,4 @@
-import joblib
+# import joblib
 import tensorflow as tf
 import numpy as np
 
@@ -7,8 +7,8 @@ import numpy as np
 
 
 # Load the pickle model
-def load_pickle_model(model_path):
-    return joblib.load(model_path)
+# def load_pickle_model(model_path):
+#     return joblib.load(model_path)
 
 
 # Load the HDF5 model
